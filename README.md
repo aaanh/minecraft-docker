@@ -1,8 +1,8 @@
 # Minecraft Docker Container
 
-Version v0.1-dev
+Version v1.0-beta
 
-Docker hub: <https://hub.docker.com/repository/docker/aaanh/minecraft>
+Docker Hub: <https://hub.docker.com/repository/docker/aaanh/minecraft>
 
 ## Currently Supported Features
 
@@ -16,8 +16,16 @@ Very simple, no additional configs, minecraft server.
 
 - Start the container
 
+amd64 / x86_64
+
 ```
 docker run -ditp 25565:25565 --name minecraft-server aaanh/minecraft:latest
+```
+
+arm64 (tested on Mac M1 Pro)
+
+```
+docker run -ditp 25565:25565 --name minecraft-server aaanh/minecraft:arm64-latest
 ```
 
 - Attach to the container to perform administrative minecraft server stuff (a.k.a. the console)
@@ -33,6 +41,3 @@ docker attach minecraft-server
 - Set custom port
 - Set custom server version
 - Persistent volume storage for server data
-- Set resource usage
-- Dynamic resource scaling
-- Horizontal resource orchestration (multi-container)
