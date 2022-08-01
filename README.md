@@ -33,3 +33,6 @@ docker attach minecraft-server
 - Set custom port
 - Set custom server version
 - Persistent volume storage for server data
+- Set resource usage
+- Dynamic resource scaling
+- Horizontal resource orchestration (multi-container)
