@@ -2,6 +2,8 @@
 
 Version v0.1-dev
 
+Docker hub: <https://hub.docker.com/repository/docker/aaanh/minecraft>
+
 ## Currently Supported Features
 
 Very simple, no additional configs, minecraft server.
