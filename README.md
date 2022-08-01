@@ -36,6 +36,12 @@ docker attach minecraft-server
 
 - Currently, the only way to "detach" from the CLI without killing the server process is to close the terminal window/instance from host.
 
+## Build It Yourself
+
+```
+docker build . --tag image-name:tag
+```
+
 ## Planned Features
 
 - Set custom port
