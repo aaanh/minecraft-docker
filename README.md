@@ -1,5 +1,7 @@
 # Minecraft Docker Container
 
+![Docker Build](https://github.com/aaanh/minecraft-docker/actions/workflows/docker-build-test.yml/badge.svg)
+
 Version v1.0-beta
 
 Docker Hub: <https://hub.docker.com/repository/docker/aaanh/minecraft>
