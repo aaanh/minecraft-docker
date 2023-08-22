@@ -1,0 +1,6 @@
+services:
+  minecraft:
+    container_name: minecraft-server
+    build: .
+    ports:
+      - "25565:25565"
