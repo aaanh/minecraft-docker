@@ -2,7 +2,7 @@
 
 ![Docker Build](https://github.com/aaanh/minecraft-docker/actions/workflows/docker-build-test.yml/badge.svg)
 
-Version v1.0-beta
+Version v1.1-beta
 
 Docker Hub: <https://hub.docker.com/repository/docker/aaanh/minecraft>
 

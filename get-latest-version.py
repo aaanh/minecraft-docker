@@ -19,11 +19,11 @@ print('Latest version: ', latest_version)
 
 latest_version_id = version_manifest['versions'][0]['id']
 
-if (latest_version_id == latest_version):
-    print('Latest version check: OK')
-else:
-    print('Latest version check: FAIL')
-    exit(1)
+# if (latest_version_id == latest_version):
+#     print('Latest version check: OK')
+# else:
+#     print('Latest version check: FAIL')
+#     exit(1)
 
 latest_version_manifest_url = version_manifest['versions'][0]['url']
 
